@@ -12,4 +12,4 @@ pluginname=$1
 cd distribution
 zip -r ../${pluginname}.zip ./
 cd ../
-rm -rf distribution
+
