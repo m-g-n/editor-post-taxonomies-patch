@@ -5,7 +5,7 @@
 
 
 add_action(
-	'init',
+	'enqueue_block_editor_assets',
 	function () {
 
 	}

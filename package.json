@@ -4,10 +4,7 @@
     "description": "Post taxonomies Patch",
     "author": "Hiroshi Urabe <mail@torounit.com> (https://torounit.com)",
     "license": "GPL-2.0-or-later",
-    "engines": {
-        "node": ">=10.0.0",
-        "npm": ">=6.9.0 <7"
-    },
+    "keywords": [],
     "homepage": "https://github.com/torounit/editor-post-taxonomies-patch",
     "repository": {
         "type": "git",
@@ -15,6 +12,10 @@
     },
     "bugs": {
         "url": "https://github.com/torounit/editor-post-taxonomies-patch/issues"
+    },
+    "engines": {
+        "node": ">=10.0.0",
+        "npm": ">=6.9.0 <7"
     },
     "dependencies": {
         "@wordpress/block-editor": "^6.1.10",
