@@ -55,6 +55,7 @@
     },
     "release-it": {
         "hooks": {
+            "after:init": "bash ./bin/cleanup.sh editor-post-taxonomies-patch",
             "before:bump": "bash ./bin/create-release.sh editor-post-taxonomies-patch ${version}",
             "after:bump": "bash ./bin/create-zip.sh editor-post-taxonomies-patch",
             "after:release": "bash ./bin/cleanup.sh editor-post-taxonomies-patch"

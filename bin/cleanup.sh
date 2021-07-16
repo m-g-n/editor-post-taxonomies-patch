@@ -10,5 +10,5 @@ fi
 name=$1
 
 rm -rf distribution
-rm ${name}.zip
-rm readme.txt
+rm -f ${name}.zip
+rm -f readme.txt
