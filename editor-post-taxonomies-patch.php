@@ -13,6 +13,12 @@
 add_action(
 	'enqueue_block_editor_assets',
 	function () {
-
+		$asset_file = include( plugin_dir_path( __FILE__ ) . 'build/index.asset.php');
+		wp_enqueue_script(
+			'editor-post-taxonomies-patch',
+			plugins_url( 'build/index.js', __FILE__ ),
+			$asset_file['dependencies'],
+			$asset_file['version']
+		);
 	}
 );
