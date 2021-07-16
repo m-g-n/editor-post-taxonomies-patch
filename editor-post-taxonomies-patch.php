@@ -7,6 +7,9 @@
  * Author: m-g-n,HAMWORKS
  * Author URI: https://github.com/m-g-n/editor-post-taxonomies-patch
  * License: GPL2 or later
+ * //Requires at least//: 5.8
+ * Tested up to: 5.8
+ * Requires PHP: 7.3
  */
 
 
