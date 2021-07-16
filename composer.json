@@ -1,6 +1,6 @@
 {
     "name": "m-g-n/editor-post-taxonomies-patch",
-    "description": "",
+    "description": "Post taxonomies Patch",
     "type": "wordpress-plugin",
     "require-dev": {
         "dealerdirect/phpcodesniffer-composer-installer": "*",
