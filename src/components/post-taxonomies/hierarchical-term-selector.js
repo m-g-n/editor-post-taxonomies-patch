@@ -423,7 +423,6 @@ function HierarchicalTermSelector( { slug } ) {
 			) }
 			<div
 				className="editor-post-taxonomies__hierarchical-terms-list"
-				key="term-list"
 				tabIndex="0"
 				role="group"
 				aria-label={ groupLabel }
@@ -434,7 +433,6 @@ function HierarchicalTermSelector( { slug } ) {
 			</div>
 			{ ! loading && hasCreateAction && (
 				<Button
-					key="term-add-button"
 					onClick={ onToggleForm }
 					className="editor-post-taxonomies__hierarchical-terms-add"
 					aria-expanded={ showForm }
@@ -444,7 +442,7 @@ function HierarchicalTermSelector( { slug } ) {
 				</Button>
 			) }
 			{ showForm && (
-				<form onSubmit={ onAddTerm } key="hierarchical-terms-form">
+				<form onSubmit={ onAddTerm }>
 					<label
 						htmlFor={ inputId }
 						className="editor-post-taxonomies__hierarchical-terms-label"
